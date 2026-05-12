@@ -1,0 +1,152 @@
+Dependencies for Project 'Lab_02', Target 'Target_1': (DO NOT MODIFY !)
+CompilerVersion: 6240000::V6.24::ARMCLANG
+F (.\main.c)(0x6A00D3A9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/Arm/Packs/ARM/CMSIS-Compiler/2.2.0/include-ID:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_-o ./objects/main.o -MMD)
+F (C:\Users\dimop\Desktop\drivers\adc.c)(0x6246D925)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/Arm/Packs/ARM/CMSIS-Compiler/2.2.0/include-ID:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_-o ./objects/adc.o -MMD)
+I (C:\Users\dimop\Desktop\drivers\platform.h)(0x57B2C0A4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\STM32F4xx.h)(0x69F20BD0)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h)(0x69F20BD0)
+I (D:\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x69F205F4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69F20BD0)
+I (C:\Users\dimop\Desktop\drivers\adc.h)(0x57B5D004)
+I (C:\Users\dimop\Desktop\drivers\stm32f4xx_adc.h)(0x57616B12)
+F (C:\Users\dimop\Desktop\drivers\adc.h)(0x57B5D004)()
+F (C:\Users\dimop\Desktop\drivers\comparator.c)(0x6246D987)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/Arm/Packs/ARM/CMSIS-Compiler/2.2.0/include-ID:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_-o ./objects/comparator.o -MMD)
+I (C:\Users\dimop\Desktop\drivers\platform.h)(0x57B2C0A4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\STM32F4xx.h)(0x69F20BD0)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h)(0x69F20BD0)
+I (D:\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x69F205F4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69F20BD0)
+I (C:\Users\dimop\Desktop\drivers\comparator.h)(0x6246D987)
+I (C:\Users\dimop\Desktop\drivers\adc.h)(0x57B5D004)
+I (C:\Users\dimop\Desktop\drivers\stm32f4xx_adc.h)(0x57616B12)
+F (C:\Users\dimop\Desktop\drivers\comparator.h)(0x6246D987)()
+F (C:\Users\dimop\Desktop\drivers\delay.c)(0x646E1C21)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/Arm/Packs/ARM/CMSIS-Compiler/2.2.0/include-ID:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_-o ./objects/delay.o -MMD)
+I (C:\Users\dimop\Desktop\drivers\platform.h)(0x57B2C0A4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\STM32F4xx.h)(0x69F20BD0)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h)(0x69F20BD0)
+I (D:\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x69F205F4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69F20BD0)
+I (C:\Users\dimop\Desktop\drivers\delay.h)(0x646E1CC3)
+F (C:\Users\dimop\Desktop\drivers\delay.h)(0x646E1CC3)()
+F (C:\Users\dimop\Desktop\drivers\delay_as.s)(0x646E1D02)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-ID:/Arm/Packs/ARM/CMSIS-Compiler/2.2.0/include-ID:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 543" -Wa,armasm,--pd,"STM32F411xE SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/delay_as.o)
+F (C:\Users\dimop\Desktop\drivers\gpio.c)(0x6246D93A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/Arm/Packs/ARM/CMSIS-Compiler/2.2.0/include-ID:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_-o ./objects/gpio.o -MMD)
+I (C:\Users\dimop\Desktop\drivers\platform.h)(0x57B2C0A4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\STM32F4xx.h)(0x69F20BD0)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h)(0x69F20BD0)
+I (D:\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x69F205F4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69F20BD0)
+I (C:\Users\dimop\Desktop\drivers\gpio.h)(0x6246D943)
+F (C:\Users\dimop\Desktop\drivers\gpio.h)(0x6246D943)()
+F (C:\Users\dimop\Desktop\drivers\i2c.c)(0x6246D951)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/Arm/Packs/ARM/CMSIS-Compiler/2.2.0/include-ID:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_-o ./objects/i2c.o -MMD)
+I (C:\Users\dimop\Desktop\drivers\platform.h)(0x57B2C0A4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\STM32F4xx.h)(0x69F20BD0)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h)(0x69F20BD0)
+I (D:\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x69F205F4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69F20BD0)
+I (C:\Users\dimop\Desktop\drivers\stm32f4xx_i2c.h)(0x57616B12)
+I (C:\Users\dimop\Desktop\drivers\STM32F4xx_RCC.h)(0x57616B12)
+I (C:\Users\dimop\Desktop\drivers\STM32F4xx_GPIO.h)(0x57616B12)
+F (C:\Users\dimop\Desktop\drivers\i2c.h)(0x5739E7F2)()
+F (C:\Users\dimop\Desktop\drivers\leds.c)(0x6407038C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/Arm/Packs/ARM/CMSIS-Compiler/2.2.0/include-ID:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_-o ./objects/leds.o -MMD)
+I (C:\Users\dimop\Desktop\drivers\platform.h)(0x57B2C0A4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\STM32F4xx.h)(0x69F20BD0)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h)(0x69F20BD0)
+I (D:\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x69F205F4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69F20BD0)
+I (C:\Users\dimop\Desktop\drivers\gpio.h)(0x6246D943)
+I (C:\Users\dimop\Desktop\drivers\leds.h)(0x57693886)
+F (C:\Users\dimop\Desktop\drivers\leds.h)(0x57693886)()
+F (C:\Users\dimop\Desktop\drivers\platform.h)(0x57B2C0A4)()
+F (C:\Users\dimop\Desktop\drivers\queue.c)(0x576939CC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/Arm/Packs/ARM/CMSIS-Compiler/2.2.0/include-ID:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_-o ./objects/queue.o -MMD)
+I (C:\Users\dimop\Desktop\drivers\queue.h)(0x576939C2)
+F (C:\Users\dimop\Desktop\drivers\queue.h)(0x576939C2)()
+F (C:\Users\dimop\Desktop\drivers\stm32f4xx_adc.c)(0x57616B12)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/Arm/Packs/ARM/CMSIS-Compiler/2.2.0/include-ID:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_-o ./objects/stm32f4xx_adc.o -MMD)
+I (C:\Users\dimop\Desktop\drivers\stm32f4xx_adc.h)(0x57616B12)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69F20BD0)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h)(0x69F20BD0)
+I (D:\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x69F205F4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69F20BD0)
+I (C:\Users\dimop\Desktop\drivers\stm32f4xx_rcc.h)(0x57616B12)
+F (C:\Users\dimop\Desktop\drivers\stm32f4xx_adc.h)(0x57616B12)()
+F (C:\Users\dimop\Desktop\drivers\stm32f4xx_gpio.c)(0x57616B12)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/Arm/Packs/ARM/CMSIS-Compiler/2.2.0/include-ID:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_-o ./objects/stm32f4xx_gpio.o -MMD)
+I (C:\Users\dimop\Desktop\drivers\stm32f4xx_rcc.h)(0x57616B12)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69F20BD0)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h)(0x69F20BD0)
+I (D:\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x69F205F4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69F20BD0)
+I (C:\Users\dimop\Desktop\drivers\stm32f4xx_gpio.h)(0x57616B12)
+F (C:\Users\dimop\Desktop\drivers\stm32f4xx_gpio.h)(0x57616B12)()
+F (C:\Users\dimop\Desktop\drivers\stm32f4xx_i2c.c)(0x57616B12)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/Arm/Packs/ARM/CMSIS-Compiler/2.2.0/include-ID:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_-o ./objects/stm32f4xx_i2c.o -MMD)
+I (C:\Users\dimop\Desktop\drivers\stm32f4xx_i2c.h)(0x57616B12)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69F20BD0)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h)(0x69F20BD0)
+I (D:\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x69F205F4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69F20BD0)
+I (C:\Users\dimop\Desktop\drivers\stm32f4xx_rcc.h)(0x57616B12)
+F (C:\Users\dimop\Desktop\drivers\stm32f4xx_i2c.h)(0x57616B12)()
+F (C:\Users\dimop\Desktop\drivers\stm32f4xx_rcc.c)(0x57616B12)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/Arm/Packs/ARM/CMSIS-Compiler/2.2.0/include-ID:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_-o ./objects/stm32f4xx_rcc.o -MMD)
+I (C:\Users\dimop\Desktop\drivers\stm32f4xx_rcc.h)(0x57616B12)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69F20BD0)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h)(0x69F20BD0)
+I (D:\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x69F205F4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69F20BD0)
+F (C:\Users\dimop\Desktop\drivers\stm32f4xx_rcc.h)(0x57616B12)()
+F (C:\Users\dimop\Desktop\drivers\stm32f4xx_usart.c)(0x57616B12)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/Arm/Packs/ARM/CMSIS-Compiler/2.2.0/include-ID:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_-o ./objects/stm32f4xx_usart.o -MMD)
+I (C:\Users\dimop\Desktop\drivers\stm32f4xx_rcc.h)(0x57616B12)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69F20BD0)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h)(0x69F20BD0)
+I (D:\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x69F205F4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69F20BD0)
+I (C:\Users\dimop\Desktop\drivers\stm32f4xx_usart.h)(0x57616B12)
+F (C:\Users\dimop\Desktop\drivers\stm32f4xx_usart.h)(0x57616B12)()
+F (C:\Users\dimop\Desktop\drivers\timer.c)(0x64049177)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/Arm/Packs/ARM/CMSIS-Compiler/2.2.0/include-ID:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_-o ./objects/timer.o -MMD)
+I (C:\Users\dimop\Desktop\drivers\platform.h)(0x57B2C0A4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\STM32F4xx.h)(0x69F20BD0)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h)(0x69F20BD0)
+I (D:\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x69F205F4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69F20BD0)
+I (C:\Users\dimop\Desktop\drivers\timer.h)(0x57B2BEC4)
+F (C:\Users\dimop\Desktop\drivers\timer.h)(0x57B2BEC4)()
+F (C:\Users\dimop\Desktop\drivers\uart.c)(0x6246D911)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/Arm/Packs/ARM/CMSIS-Compiler/2.2.0/include-ID:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_-o ./objects/uart.o -MMD)
+I (C:\Users\dimop\Desktop\drivers\platform.h)(0x57B2C0A4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\STM32F4xx.h)(0x69F20BD0)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h)(0x69F20BD0)
+I (D:\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x69F205F4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69F20BD0)
+I (C:\Users\dimop\Desktop\drivers\uart.h)(0x5739E82A)
+I (C:\Users\dimop\Desktop\drivers\STM32F4xx_RCC.h)(0x57616B12)
+I (C:\Users\dimop\Desktop\drivers\STM32F4xx_USART.h)(0x57616B12)
+I (C:\Users\dimop\Desktop\drivers\STM32F4xx_GPIO.h)(0x57616B12)
+F (C:\Users\dimop\Desktop\drivers\uart.h)(0x5739E82A)()
+F (D:/Arm/Packs/ARM/CMSIS-Compiler/2.2.0/source/core/armcc/retarget_io.c)(0x69F215CF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/Arm/Packs/ARM/CMSIS-Compiler/2.2.0/include-ID:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_-o ./objects/retarget_io.o -MMD)
+I (RTE\_Target_1\RTE_Components.h)(0x6A00CFD4)
+I (D:\Arm\Packs\ARM\CMSIS-Compiler\2.2.0\include\retarget_stderr.h)(0x69F215CF)
+I (D:\Arm\Packs\ARM\CMSIS-Compiler\2.2.0\include\retarget_stdin.h)(0x69F215CF)
+I (D:\Arm\Packs\ARM\CMSIS-Compiler\2.2.0\include\retarget_stdout.h)(0x69F215CF)
+F (D:/Arm/Packs/ARM/CMSIS-Compiler/2.2.0/source/stderr/stderr_itm.c)(0x69F215CF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/Arm/Packs/ARM/CMSIS-Compiler/2.2.0/include-ID:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_-o ./objects/stderr_itm.o -MMD)
+I (D:\Arm\Packs\ARM\CMSIS-Compiler\2.2.0\include\retarget_stderr.h)(0x69F215CF)
+I (RTE\_Target_1\RTE_Components.h)(0x6A00CFD4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69F20BD0)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h)(0x69F20BD0)
+I (D:\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x69F205F4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69F20BD0)
+F (D:/Arm/Packs/ARM/CMSIS-Compiler/2.2.0/source/stdin/stdin_itm.c)(0x69F215CF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/Arm/Packs/ARM/CMSIS-Compiler/2.2.0/include-ID:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_-o ./objects/stdin_itm.o -MMD)
+I (D:\Arm\Packs\ARM\CMSIS-Compiler\2.2.0\include\retarget_stdin.h)(0x69F215CF)
+I (RTE\_Target_1\RTE_Components.h)(0x6A00CFD4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69F20BD0)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h)(0x69F20BD0)
+I (D:\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x69F205F4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69F20BD0)
+F (D:/Arm/Packs/ARM/CMSIS-Compiler/2.2.0/source/stdout/stdout_itm.c)(0x69F215CF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/Arm/Packs/ARM/CMSIS-Compiler/2.2.0/include-ID:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_-o ./objects/stdout_itm.o -MMD)
+I (D:\Arm\Packs\ARM\CMSIS-Compiler\2.2.0\include\retarget_stdout.h)(0x69F215CF)
+I (RTE\_Target_1\RTE_Components.h)(0x6A00CFD4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69F20BD0)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h)(0x69F20BD0)
+I (D:\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x69F205F4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69F20BD0)
+F (RTE/Device/STM32F411RETx/startup_stm32f411xe.s)(0x69F20BD0)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-ID:/Arm/Packs/ARM/CMSIS-Compiler/2.2.0/include-ID:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 543" -Wa,armasm,--pd,"STM32F411xE SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f411xe.o)
+F (RTE/Device/STM32F411RETx/system_stm32f4xx.c)(0x69F20BD0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-ID:/Arm/Packs/ARM/CMSIS-Compiler/2.2.0/include-ID:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_-o ./objects/system_stm32f4xx.o -MMD)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69F20BD0)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h)(0x69F20BD0)
+I (D:\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x69F205F4)
+I (D:\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69F20BD0)

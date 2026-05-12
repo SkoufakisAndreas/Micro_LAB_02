@@ -1,0 +1,239 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.43.1.0
+Copyright (C) 2025 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Dimosthenis Papathanasiou, aristotle university of thessaloniki, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.43.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.24
+Assembler:       Armasm.exe V6.24
+Linker/Locator:  ArmLink.exe V6.24
+Library Manager: ArmAr.exe V6.24
+Hex Converter:   FromElf.exe V6.24
+CPU DLL:         SARMCM3.DLL V5.43.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      UL2CM3.DLL V1.164.16.0
+Dialog DLL:      TCM.DLL V1.56.6.0
+ 
+<h2>Project:</h2>
+D:\micro_keil\Lab_02\Lab_02.uvprojx
+Project File Date:  05/10/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.24', folder: 'D:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target_1'
+C:/Users/dimop/Desktop/drivers/comparator.c(1): warning: In file included from...
+C:/Users/dimop/Desktop/drivers\platform.h(18): warning: non-portable path to file '<stm32f4xx.h>'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+   18 | #include <STM32F4xx.h>
+      |          ^~~~~~~~~~~~~
+      |          <stm32f4xx.h>
+C:/Users/dimop/Desktop/drivers/comparator.c(2): warning: In file included from...
+C:/Users/dimop/Desktop/drivers\comparator.h(6): warning: In file included from...
+C:/Users/dimop/Desktop/drivers\adc.h(10): warning: 'ADC1_BASE' macro redefined [-Wmacro-redefined]
+   10 | #define ADC1_BASE             (APB2PERIPH_BASE + 0x2000)
+      |         ^
+D:/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f411xe.h(678): note: previous definition is here
+  678 | #define ADC1_BASE             (APB2PERIPH_BASE + 0x2000UL)
+      |         ^
+C:/Users/dimop/Desktop/drivers/comparator.c(2): warning: In file included from...
+C:/Users/dimop/Desktop/drivers\comparator.h(6): warning: In file included from...
+C:/Users/dimop/Desktop/drivers\adc.h(23): warning: 'GPIOA_BASE' macro redefined [-Wmacro-redefined]
+   23 | #define GPIOA_BASE            (AHB1PERIPH_BASE + 0x0000)
+      |         ^
+D:/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f411xe.h(693): note: previous definition is here
+  693 | #define GPIOA_BASE            (AHB1PERIPH_BASE + 0x0000UL)
+      |         ^
+C:/Users/dimop/Desktop/drivers/comparator.c(2): warning: In file included from...
+C:/Users/dimop/Desktop/drivers\comparator.h(6): warning: In file included from...
+C:/Users/dimop/Desktop/drivers\adc.h(251): warning: unused function 'local_ADC_Init' [-Wunused-function]
+  251 | static void local_ADC_Init(ADC_HandleTypeDef* hadc);
+      |             ^~~~~~~~~~~~~~
+4 warnings generated.
+compiling comparator.c...
+assembling delay_as.s...
+main.c(1): error: 'platform.h' file not found
+    1 | #include "platform.h"
+      |          ^~~~~~~~~~~~
+1 error generated.
+compiling main.c...
+C:/Users/dimop/Desktop/drivers/delay.c(1): warning: In file included from...
+C:/Users/dimop/Desktop/drivers\platform.h(18): warning: non-portable path to file '<stm32f4xx.h>'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+   18 | #include <STM32F4xx.h>
+      |          ^~~~~~~~~~~~~
+      |          <stm32f4xx.h>
+1 warning generated.
+compiling delay.c...
+C:/Users/dimop/Desktop/drivers/i2c.c(1): warning: In file included from...
+C:/Users/dimop/Desktop/drivers\platform.h(18): warning: non-portable path to file '<stm32f4xx.h>'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+   18 | #include <STM32F4xx.h>
+      |          ^~~~~~~~~~~~~
+      |          <stm32f4xx.h>
+C:/Users/dimop/Desktop/drivers/i2c.c(3): warning: non-portable path to file '"stm32f4xx_rcc.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+    3 | #include "STM32F4xx_RCC.h"
+      |          ^~~~~~~~~~~~~~~~~
+      |          "stm32f4xx_rcc.h"
+C:/Users/dimop/Desktop/drivers/i2c.c(4): warning: non-portable path to file '"stm32f4xx_i2c.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+    4 | #include "STM32F4xx_I2C.h"
+      |          ^~~~~~~~~~~~~~~~~
+      |          "stm32f4xx_i2c.h"
+C:/Users/dimop/Desktop/drivers/i2c.c(5): warning: non-portable path to file '"stm32f4xx_gpio.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+    5 | #include "STM32F4xx_GPIO.h"
+      |          ^~~~~~~~~~~~~~~~~~
+      |          "stm32f4xx_gpio.h"
+4 warnings generated.
+compiling i2c.c...
+C:/Users/dimop/Desktop/drivers/gpio.c(1): warning: In file included from...
+C:/Users/dimop/Desktop/drivers\platform.h(18): warning: non-portable path to file '<stm32f4xx.h>'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+   18 | #include <STM32F4xx.h>
+      |          ^~~~~~~~~~~~~
+      |          <stm32f4xx.h>
+1 warning generated.
+compiling gpio.c...
+compiling queue.c...
+C:/Users/dimop/Desktop/drivers/leds.c(1): warning: In file included from...
+C:/Users/dimop/Desktop/drivers\platform.h(18): warning: non-portable path to file '<stm32f4xx.h>'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+   18 | #include <STM32F4xx.h>
+      |          ^~~~~~~~~~~~~
+      |          <stm32f4xx.h>
+1 warning generated.
+compiling leds.c...
+compiling stm32f4xx_gpio.c...
+compiling stm32f4xx_rcc.c...
+C:/Users/dimop/Desktop/drivers/stm32f4xx_usart.c(434): warning: unused parameter 'USARTx' [-Wunused-parameter]
+  434 | void USART_SetPrescaler(USART_TypeDef* USARTx, uint8_t USART_Prescaler)
+      |                                        ^
+C:/Users/dimop/Desktop/drivers/stm32f4xx_usart.c(434): warning: unused parameter 'USART_Prescaler' [-Wunused-parameter]
+  434 | void USART_SetPrescaler(USART_TypeDef* USARTx, uint8_t USART_Prescaler)
+      |                                                        ^
+2 warnings generated.
+compiling stm32f4xx_usart.c...
+C:/Users/dimop/Desktop/drivers/timer.c(1): warning: In file included from...
+C:/Users/dimop/Desktop/drivers\platform.h(18): warning: non-portable path to file '<stm32f4xx.h>'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+   18 | #include <STM32F4xx.h>
+      |          ^~~~~~~~~~~~~
+      |          <stm32f4xx.h>
+1 warning generated.
+compiling timer.c...
+C:/Users/dimop/Desktop/drivers/uart.c(1): warning: In file included from...
+C:/Users/dimop/Desktop/drivers\platform.h(18): warning: non-portable path to file '<stm32f4xx.h>'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+   18 | #include <STM32F4xx.h>
+      |          ^~~~~~~~~~~~~
+      |          <stm32f4xx.h>
+C:/Users/dimop/Desktop/drivers/uart.c(3): warning: non-portable path to file '"stm32f4xx_rcc.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+    3 | #include "STM32F4xx_RCC.h"
+      |          ^~~~~~~~~~~~~~~~~
+      |          "stm32f4xx_rcc.h"
+C:/Users/dimop/Desktop/drivers/uart.c(4): warning: non-portable path to file '"stm32f4xx_usart.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+    4 | #include "STM32F4xx_USART.h"
+      |          ^~~~~~~~~~~~~~~~~~~
+      |          "stm32f4xx_usart.h"
+C:/Users/dimop/Desktop/drivers/uart.c(5): warning: non-portable path to file '"stm32f4xx_gpio.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+    5 | #include "STM32F4xx_GPIO.h"
+      |          ^~~~~~~~~~~~~~~~~~
+      |          "stm32f4xx_gpio.h"
+4 warnings generated.
+compiling uart.c...
+compiling stdin_itm.c...
+compiling stdout_itm.c...
+assembling startup_stm32f411xe.s...
+compiling system_stm32f4xx.c...
+C:/Users/dimop/Desktop/drivers/adc.c(1): warning: In file included from...
+C:/Users/dimop/Desktop/drivers\platform.h(18): warning: non-portable path to file '<stm32f4xx.h>'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+   18 | #include <STM32F4xx.h>
+      |          ^~~~~~~~~~~~~
+      |          <stm32f4xx.h>
+C:/Users/dimop/Desktop/drivers/adc.c(3): warning: In file included from...
+C:/Users/dimop/Desktop/drivers\adc.h(10): warning: 'ADC1_BASE' macro redefined [-Wmacro-redefined]
+   10 | #define ADC1_BASE             (APB2PERIPH_BASE + 0x2000)
+      |         ^
+D:/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f411xe.h(678): note: previous definition is here
+  678 | #define ADC1_BASE             (APB2PERIPH_BASE + 0x2000UL)
+      |         ^
+C:/Users/dimop/Desktop/drivers/adc.c(3): warning: In file included from...
+C:/Users/dimop/Desktop/drivers\adc.h(23): warning: 'GPIOA_BASE' macro redefined [-Wmacro-redefined]
+   23 | #define GPIOA_BASE            (AHB1PERIPH_BASE + 0x0000)
+      |         ^
+D:/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f411xe.h(693): note: previous definition is here
+  693 | #define GPIOA_BASE            (AHB1PERIPH_BASE + 0x0000UL)
+      |         ^
+3 warnings generated.
+compiling adc.c...
+compiling stm32f4xx_adc.c...
+compiling retarget_io.c...
+compiling stm32f4xx_i2c.c...
+compiling stderr_itm.c...
+".\Objects\Lab_02.axf" - 1 Error(s), 21 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.3.0.pack
+                ARM::CMSIS@6.3.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.2.0
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS-Compiler.2.2.0.pack
+                ARM::CMSIS-Compiler@2.2.0
+                CMSIS Compiler extensions for Arm Compiler, GCC, Clang, and IAR Compiler
+   * Component: CORE Version: 1.2.0
+   * Component: ITM Version: 1.1.0
+   * Component: ITM Version: 1.1.0
+   * Component: ITM Version: 1.1.0
+   * Component: STDERR Version: 1.1.0
+   * Component: STDIN Version: 1.1.0
+   * Component: STDOUT Version: 1.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.2.17.0.pack
+                Keil::STM32F4xx_DFP@2.17.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 2.6.3
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Target_1
+  D:/Arm/Packs/ARM/CMSIS-Compiler/2.2.0/include
+  D:/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include
+  D:/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS-Compiler:CORE@1.2.0
+      Source file:   source/core/armcc/retarget_io.c
+
+   * Component: ARM::CMSIS-Compiler:STDERR:ITM@1.1.0
+      Source file:   source/stderr/stderr_itm.c
+
+   * Component: ARM::CMSIS-Compiler:STDIN:ITM@1.1.0
+      Source file:   source/stdin/stdin_itm.c
+
+   * Component: ARM::CMSIS-Compiler:STDOUT:ITM@1.1.0
+      Source file:   source/stdout/stdout_itm.c
+
+   * Component: ARM::CMSIS:CORE@6.2.0
+
+   * Component: CMSIS-Compiler:STDERR(API)@1.1.0
+      Include file:  include/retarget_stderr.h
+
+   * Component: CMSIS-Compiler:STDIN(API)@1.1.0
+      Include file:  include/retarget_stdin.h
+
+   * Component: CMSIS-Compiler:STDOUT(API)@1.1.0
+      Include file:  include/retarget_stdout.h
+
+   * Component: Keil::Device:Startup@2.6.3
+      Source file:   MDK/Device/Source/ARM/STM32F4xx_OTP.s
+      Source file:   MDK/Device/Source/ARM/STM32F411xx_OPT.s
+      Include file:  Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+      Source file:   Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f411xe.s
+      Source file:   Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c
+Target not created.
+Build Time Elapsed:  00:00:06
+</pre>
+</body>
+</html>
