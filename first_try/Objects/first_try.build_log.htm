@@ -32,11 +32,20 @@ main.c(1): warning: In file included from...
    18 | #include <STM32F4xx.h>
       |          ^~~~~~~~~~~~~
       |          <stm32f4xx.h>
-1 warning generated.
+main.c(70): warning: unused parameter 'status' [-Wunused-parameter]
+   70 | void my_button_callback(int status) {
+      |                             ^
+main.c(223): warning: comparison of integers of different signs: 'int' and 'uint32_t' (aka 'unsigned int') [-Wsign-compare]
+  223 |                         for (int k = 0; k < buff_index; k++) {
+      |                                         ~ ^ ~~~~~~~~~~
+main.c(265): warning: comparison of integers of different signs: 'int' and 'uint32_t' (aka 'unsigned int') [-Wsign-compare]
+  265 |                     for (int j = 0; j < buff_index; j++) {
+      |                                     ~ ^ ~~~~~~~~~~
+4 warnings generated.
 compiling main.c...
 linking...
-Program Size: Code=7512 RO-data=520 RW-data=4 ZI-data=1720  
-".\Objects\first_try.axf" - 0 Error(s), 1 Warning(s).
+Program Size: Code=9880 RO-data=956 RW-data=4 ZI-data=2280  
+".\Objects\first_try.axf" - 0 Error(s), 4 Warning(s).
 
 <h2>Software Packages used:</h2>
 

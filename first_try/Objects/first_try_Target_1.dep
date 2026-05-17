@@ -1,6 +1,6 @@
 Dependencies for Project 'first_try', Target 'Target_1': (DO NOT MODIFY !)
 CompilerVersion: 6240000::V6.24::ARMCLANG
-F (.\main.c)(0x69FDD50F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./drivers-I./RTE/_Target_1-IC:/Users/Aggir/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/Aggir/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_-o ./objects/main.o -MMD)
+F (.\main.c)(0x6A09BA3E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./drivers-I./RTE/_Target_1-IC:/Users/Aggir/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/Aggir/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_-o ./objects/main.o -MMD)
 I (drivers\platform.h)(0x57B2C0A4)
 I (C:\Users\Aggir\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\STM32F4xx.h)(0x69CE8451)
 I (C:\Users\Aggir\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h)(0x69CE8451)
@@ -8,8 +8,9 @@ I (C:\Users\Aggir\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\cor
 I (C:\Users\Aggir\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69CE8451)
 I (drivers\uart.h)(0x5739E82A)
 I (drivers\queue.h)(0x576939C2)
-I (drivers\gpio.h)(0x6246D943)
 I (drivers\timer.h)(0x57B2BEC4)
+I (drivers\leds.h)(0x57693886)
+I (drivers\gpio.h)(0x6246D943)
 F (.\drivers\adc.h)(0x57B5D004)()
 F (.\drivers\adc.c)(0x6246D925)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./drivers-I./RTE/_Target_1-IC:/Users/Aggir/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/Aggir/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="543" -DSTM32F411xE -D_RTE_-o ./objects/adc.o -MMD)
 I (drivers\platform.h)(0x57B2C0A4)
